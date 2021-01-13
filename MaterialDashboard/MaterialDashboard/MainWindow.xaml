@@ -209,6 +209,16 @@
                                 <VisualBrush Visual="{ Binding ElementName=BorderG2 }"/>
                             </Grid.OpacityMask>
                             <Border x:Name="BorderG2" CornerRadius="15" Background="#FF340051"/>
+
+                            <MetroChart:RadialGaugeChart Background="{x:Null}" ChartTitle="Використання" ChartSubTitle="" Foreground="LightGray" >
+                                <MetroChart:RadialGaugeChart.Series>
+                                    <MetroChart:ChartSeries
+                                        DisplayMember="Title"
+                                        ItemsSource="{Binding Path=Consumption}"
+                                        SeriesTitle="Використання"
+                                        ValueMember="Percentage" HorizontalAlignment="Center"/>
+                                </MetroChart:RadialGaugeChart.Series>
+                            </MetroChart:RadialGaugeChart>
                         </Grid>
                     </Grid>
                 </Grid>

@@ -15,6 +15,9 @@ namespace MaterialDashboard
         public MainWindow()
         {
             InitializeComponent();
+
+            var сonsumption = new Consumption();
+            DataContext = new ChartData(сonsumption);
         }
 
         /// <summary>
