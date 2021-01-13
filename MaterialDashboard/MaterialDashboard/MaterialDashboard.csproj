@@ -6,4 +6,9 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="MaterialDesignThemes" Version="3.2.0" />
+    <PackageReference Include="ModernUICharts.WPF.Beta" Version="0.9.1" />
+  </ItemGroup>
+
 </Project>
