@@ -1,0 +1,7 @@
+﻿################################################################################
+# Данный GITIGNORE-файл был автоматически создан Microsoft(R) Visual Studio.
+################################################################################
+
+/MaterialDashboard/.vs/MaterialDashboard
+/MaterialDashboard/MaterialDashboard/obj
+/MaterialDashboard/MaterialDashboard/bin/Debug/netcoreapp3.1
